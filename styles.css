@@ -1,0 +1,117 @@
+body {
+    background-color: gainsboro;
+}
+
+#bucket-container {
+    background-color: #ffffff;
+    padding: 1.5% 3% 0%;
+}
+
+#items-container {
+    background-color: #ffffff;
+    min-height: inherit;
+}
+
+#nav-bar {
+    border-radius: 0;
+}
+
+.bucketlist {
+    background-color: gainsboro;
+    padding: 2%;
+    border: white solid;
+}
+
+.bucketlist-item {
+    background-color: gainsboro;
+    padding: 2%;
+    border: white solid;
+}
+
+.bucketlist {
+    -webkit-transition: all 1s ease; /* Safari and Chrome */
+    -moz-transition: all 1s ease; /* Firefox */
+    -ms-transition: all 1s ease; /* IE 9 */
+    -o-transition: all 1s ease; /* Opera */
+    transition: all 1s ease;
+}
+
+.bucketlist:hover {
+    -webkit-transform:scale(1.05); /* Safari and Chrome */
+    -moz-transform:scale(1.05); /* Firefox */
+    -ms-transform:scale(1.05); /* IE 9 */
+    -o-transform:scale(1.05); /* Opera */
+    transform:scale(1.05);
+}
+
+#app-logo {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+#new-bucket-button {
+    border-radius: 0px;
+    border: solid white;
+}
+
+#new-item-button {
+    border-radius: 0px;
+    border: solid white;
+    bottom: 0;
+    position: absolute;
+}
+
+.bucket-name {
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.centered-pagination{
+    text-align: center;
+    margin-top: 1.5%;
+    margin-bottom: 0;
+}
+
+#new-bucket-button {
+    font-size: xx-large;
+}
+
+.item-completed {
+    color: #18bc9c;
+}
+
+.col12 {
+    background-color: white;
+}
+
+.is-table-row {
+    display: table;
+    height: 100%;
+}
+.is-table-row [class*="col1"] {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.scrollable {
+    margin-top: 0;
+    overflow-y: auto;
+    height: 480px;
+}
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+}
+
+.col12{
+    max-height: inherit;
+}
+
+#items-intro-text {
+    padding: 3%;
+    margin-bottom: 0%;
+    font-weight: bolder;
+    text-align: center;
+}
